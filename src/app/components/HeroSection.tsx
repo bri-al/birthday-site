@@ -13,7 +13,7 @@ export default function HeroSection() {
     <section id="hero" className="relative min-h-screen flex items-center justify-center overflow-hidden">
       <div className="absolute inset-0 overflow-hidden">
         <img
-          src="/images/graduation.jpeg"
+          src="images/graduation.jpeg"
           alt=""
           className="w-full h-full object-cover object-[center_30%]"
         />

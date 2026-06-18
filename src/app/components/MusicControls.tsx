@@ -4,7 +4,7 @@ import { useState, useRef, useEffect } from "react";
 import { motion } from "framer-motion";
 import { HiMusicalNote, HiPlay, HiPause } from "react-icons/hi2";
 
-const SONG_URL = "/audio/Alex warren - Ordinary.mp3";
+const SONG_URL = "audio/Alex warren - Ordinary.mp3";
 
 export default function MusicControls() {
   const [isPlaying, setIsPlaying] = useState(false);

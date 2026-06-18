@@ -23,7 +23,7 @@ export default function LoveLetter() {
     >
       <div className="absolute inset-0 overflow-hidden">
         <img
-          src="/images/letter.jpeg"
+          src="images/letter.jpeg"
           alt=""
           className="w-full h-full object-cover object-center"
         />

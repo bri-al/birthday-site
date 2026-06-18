@@ -5,15 +5,15 @@ import { motion, AnimatePresence } from "framer-motion";
 import { HiHeart } from "react-icons/hi";
 
 const REASONS = [
-  { id: 1, title: "Your Smile", text: "Your smile turns ordinary moments into my favorite memories. No matter how my day goes, seeing you smile makes everything feel right again.", image: "/images/graduation.jpeg" },
-  { id: 2, title: "Your Kindness", text: "Your kindness is one of the things I admire most about you. The way you care for people, even in the smallest moments, shows how beautiful your heart truly is, and it makes me love you even more every day.", image: "/images/letter.jpeg" },
-  { id: 3, title: "Your Laughter", text: "Your laughter is my favorite sound in the world. It fills every room with joy and makes even the simplest moments unforgettable.", image: "/images/gallary.jpeg" },
-  { id: 4, title: "Your Strength", text: "You face challenges with courage and grace. Your strength amazes me, and it reminds me that no obstacle is too great when you believe in yourself.", image: "/images/link.jpeg" },
-  { id: 5, title: "Your Eyes", text: "Your eyes tell stories words never could. Every time I look into them, I find comfort, warmth, and a place I never want to leave.", image: "/images/memories/WhatsApp Image 2026-06-18 at 1.33.05 PMxs.jpeg" },
-  { id: 6, title: "Your Voice", text: "Your voice has a way of calming my mind and brightening my day. It's a melody I could listen to forever.", image: "/images/memories/WhatsApp Image 2026-06-18 at 1.33.06 PM12f - Copy.jpeg" },
-  { id: 7, title: "Your Hugs", text: "Your hugs feel like home. In your arms, I find peace, comfort, and a happiness that words can't fully describe.", image: "/images/advan.jpeg" },
-  { id: 8, title: "Your Dreams", text: "I love how passionately you chase your dreams. Your ambition and determination inspire me to become a better person every day.", image: "/images/memories/WhatsApp Image 2026-06-18 at 1.33.05 PMc.jpeg" },
-  { id: 9, title: "Your Spirit", text: "Your beautiful spirit shines through everything you do. Your energy, kindness, and authenticity make the world a brighter place, and my life infinitely better.", image: "/images/memories/WhatsApp Image 2026-06-18 at 1.33.05 PMd.jpeg" },
+  { id: 1, title: "Your Smile", text: "Your smile turns ordinary moments into my favorite memories. No matter how my day goes, seeing you smile makes everything feel right again.", image: "images/graduation.jpeg" },
+  { id: 2, title: "Your Kindness", text: "Your kindness is one of the things I admire most about you. The way you care for people, even in the smallest moments, shows how beautiful your heart truly is, and it makes me love you even more every day.", image: "images/letter.jpeg" },
+  { id: 3, title: "Your Laughter", text: "Your laughter is my favorite sound in the world. It fills every room with joy and makes even the simplest moments unforgettable.", image: "images/gallary.jpeg" },
+  { id: 4, title: "Your Strength", text: "You face challenges with courage and grace. Your strength amazes me, and it reminds me that no obstacle is too great when you believe in yourself.", image: "images/link.jpeg" },
+  { id: 5, title: "Your Eyes", text: "Your eyes tell stories words never could. Every time I look into them, I find comfort, warmth, and a place I never want to leave.", image: "images/memories/WhatsApp Image 2026-06-18 at 1.33.05 PMxs.jpeg" },
+  { id: 6, title: "Your Voice", text: "Your voice has a way of calming my mind and brightening my day. It's a melody I could listen to forever.", image: "images/memories/WhatsApp Image 2026-06-18 at 1.33.06 PM12f - Copy.jpeg" },
+  { id: 7, title: "Your Hugs", text: "Your hugs feel like home. In your arms, I find peace, comfort, and a happiness that words can't fully describe.", image: "images/advan.jpeg" },
+  { id: 8, title: "Your Dreams", text: "I love how passionately you chase your dreams. Your ambition and determination inspire me to become a better person every day.", image: "images/memories/WhatsApp Image 2026-06-18 at 1.33.05 PMc.jpeg" },
+  { id: 9, title: "Your Spirit", text: "Your beautiful spirit shines through everything you do. Your energy, kindness, and authenticity make the world a brighter place, and my life infinitely better.", image: "images/memories/WhatsApp Image 2026-06-18 at 1.33.05 PMd.jpeg" },
 ];
 
 export default function ReasonsLove() {
@@ -23,7 +23,7 @@ export default function ReasonsLove() {
     <section id="reasons" className="relative py-20 sm:py-32 overflow-hidden">
       <div className="absolute inset-0 overflow-hidden">
         <img
-          src="/images/reason.jpeg"
+          src="images/reason.jpeg"
           alt=""
           className="w-full h-full object-cover object-center"
         />

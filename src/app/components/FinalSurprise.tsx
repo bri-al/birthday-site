@@ -26,7 +26,7 @@ export default function FinalSurprise() {
     <section id="surprise" className="relative min-h-screen flex items-center justify-center overflow-hidden">
       <div className="absolute inset-0 overflow-hidden">
         <video
-          src="/videos/last .mp4"
+          src="videos/last .mp4"
           autoPlay
           muted
           loop

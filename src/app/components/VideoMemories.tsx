@@ -5,18 +5,18 @@ import { motion, AnimatePresence } from "framer-motion";
 import { HiHeart, HiPlay, HiX } from "react-icons/hi";
 
 const VIDEOS = [
-  { id: 1, src: "/videos/celeb.mp4", title: "Celebration", description: "Abi and you during her birthday" },
-  { id: 2, src: "/videos/fd.mp4", title: "Special Moments", description: "After exams party" },
-  { id: 3, src: "/videos/del.mp4", title: "Beautiful Times", description: "Abi and you at socialization" },
-  { id: 4, src: "/videos/WhatsApp Video 2026-06-18 at 1.33.06 PM12.mp4", title: "Memory 1", description: "Abi and you during her birthday" },
-  { id: 5, src: "/videos/WhatsApp Video 2026-06-18 at 1.33.06 PM98j.mp4", title: "Memory 2", description: "Abi and you during her birthday" },
-  { id: 6, src: "/videos/WhatsApp Video 2026-06-18 at 1.33.07 PM1q.mp4", title: "Memory 3", description: "Feeling proud of yourself after braiding" },
-  { id: 7, src: "/videos/WhatsApp Video 2026-06-18 at 1.33.07 PMe.mp4", title: "Memory 4", description: "still in your proudness era" },
-  { id: 8, src: "/videos/WhatsApp Video 2026-06-18 at 1.33.07 PMj.mp4", title: "Memory 5", description: "Random sunday" },
-  { id: 9, src: "/videos/WhatsApp Video 2026-06-18 at 1.33.07 PMk.mp4", title: "Memory 6", description: "Random streak" },
-  { id: 10, src: "/videos/WhatsApp Video 2026-06-18 at 1.33.07 PMq.mp4", title: "Memory 7", description: "You at socialization after convincing you" },
-  { id: 11, src: "/videos/WhatsApp Video 2026-06-18 at 1.33.08 23.mp4", title: "Memory 8", description: "still in your proudness era" },
-  { id: 12, src: "/videos/WhatsApp Video 2026-06-18 at 1.33.08 PM7.mp4", title: "Memory 9", description: "looking cute now" },
+  { id: 1, src: "videos/celeb.mp4", title: "Celebration", description: "Abi and you during her birthday" },
+  { id: 2, src: "videos/fd.mp4", title: "Special Moments", description: "After exams party" },
+  { id: 3, src: "videos/del.mp4", title: "Beautiful Times", description: "Abi and you at socialization" },
+  { id: 4, src: "videos/WhatsApp Video 2026-06-18 at 1.33.06 PM12.mp4", title: "Memory 1", description: "Abi and you during her birthday" },
+  { id: 5, src: "videos/WhatsApp Video 2026-06-18 at 1.33.06 PM98j.mp4", title: "Memory 2", description: "Abi and you during her birthday" },
+  { id: 6, src: "videos/WhatsApp Video 2026-06-18 at 1.33.07 PM1q.mp4", title: "Memory 3", description: "Feeling proud of yourself after braiding" },
+  { id: 7, src: "videos/WhatsApp Video 2026-06-18 at 1.33.07 PMe.mp4", title: "Memory 4", description: "still in your proudness era" },
+  { id: 8, src: "videos/WhatsApp Video 2026-06-18 at 1.33.07 PMj.mp4", title: "Memory 5", description: "Random sunday" },
+  { id: 9, src: "videos/WhatsApp Video 2026-06-18 at 1.33.07 PMk.mp4", title: "Memory 6", description: "Random streak" },
+  { id: 10, src: "videos/WhatsApp Video 2026-06-18 at 1.33.07 PMq.mp4", title: "Memory 7", description: "You at socialization after convincing you" },
+  { id: 11, src: "videos/WhatsApp Video 2026-06-18 at 1.33.08 23.mp4", title: "Memory 8", description: "still in your proudness era" },
+  { id: 12, src: "videos/WhatsApp Video 2026-06-18 at 1.33.08 PM7.mp4", title: "Memory 9", description: "looking cute now" },
 ];
 
 export default function VideoMemories() {
@@ -26,7 +26,7 @@ export default function VideoMemories() {
     <section id="videos" className="relative py-20 sm:py-32 overflow-hidden">
       <div className="absolute inset-0 overflow-hidden">
         <img
-          src="/images/gallary.jpeg"
+          src="images/gallary.jpeg"
           alt=""
           className="w-full h-full object-cover object-[center_70%]"
         />
